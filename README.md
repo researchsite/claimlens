@@ -2,6 +2,7 @@
 
 > **Side-by-side proof that standard LLMs echo viral hoaxes — and a multi-agent pipeline that catches the lie.**
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Streamlit-FF4B4B?logo=streamlit)](https://claimlens-xh52zvqh5z3xrstpzcvyoo.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.32+-red?logo=streamlit)](https://streamlit.io)
 [![Nebius AI](https://img.shields.io/badge/Nebius_AI-Qwen3-purple)](https://studio.nebius.com)
@@ -46,8 +47,12 @@ See **[docs/WALKTHROUGH.md](docs/WALKTHROUGH.md)** for a full visual walkthrough
 
 ## Quick Start
 
+**Try it live (no install needed):** [https://claimlens-xh52zvqh5z3xrstpzcvyoo.streamlit.app/](https://claimlens-xh52zvqh5z3xrstpzcvyoo.streamlit.app/)
+
+Or run locally:
+
 ```bash
-git clone https://github.com/<you>/claimlens.git
+git clone https://github.com/researchsite/claimlens.git
 cd claimlens
 pip install -r requirements.txt
 cp .env.example .env          # fill in your keys (see Configuration)
