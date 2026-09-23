@@ -1,0 +1,136 @@
+{
+  "preset_id": "nasa_signal",
+  "claim": "NASA satellite detects confirmed alien radio signal from Mars",
+  "approach_a": "In 2023, the European Space Agency’s (ESA) ExoMars Trace Gas Orbiter (TGO), orbiting Mars, transmitted a simulated \"alien signal\" to Earth as part of a public engagement and scientific exercise. This carefully crafted radio transmission, designed to mimic a potential extraterrestrial message, was intercepted by three radio astronomy observatories and then released to the public for decoding. Despite thousands of volunteers attempting to decipher it over the course of a year, the signal remained uncracked—until a determined father-daughter team in the United States successfully decoded the message in 2024. Their breakthrough revealed the signal contained an image of five amino acids, the building blocks of life, symbolizing a profound nod to the search for extraterrestrial biology.\n\nIt is important to clarify that no actual alien signal from Mars has been detected by NASA or any other space agency. The widely reported \"alien signal\" was a fictional scenario created by ESA to inspire public interest in space science and the Search for Extraterrestrial Intelligence (SETI). While real scientific milestones—such as the first detection of radio emissions from an exoplanet, β Pictoris b—have been achieved, these are natural phenomena related to planetary magnetic fields, not intelligent communication. The viral confusion, fueled by sensational headlines and misinformation, underscores the importance of critical thinking in interpreting scientific news. The ExoMars signal challenge ultimately succeeded in its goal: engaging global audiences in the excitement and rigor of space exploration.",
+  "search_results": [
+    {
+      "title": "'Alien signal' sent from Mars decoded by father-daughter team",
+      "href": "https://www.space.com/alien-signal-mars-decoded-esa-exomars",
+      "body": "A signal beamed at Earth from Mars in 2023 has finally been decoded by a father and daughter team in the United States.",
+      "is_primary": false
+    },
+    {
+      "title": "'Alien Signal' From Mars Decoded by US Father-Daughter Team",
+      "href": "https://www.sciencealert.com/alien-signal-from-mars-decoded-by-us-father-daughter-team",
+      "body": "In May 2023, the ESA's Exomars Trace Gas Orbiter (TGO), currently in orbit around Mars, sent a signal to Earth to simulate a possible extraterrestrial transmission. After three radio astronomy observatories on Earth intercepted the message, the challenge was to extract the message from the raw data ...",
+      "is_primary": false
+    },
+    {
+      "title": "Astronomers Detect Radio Signals Coming Directly From an Exoplanet For ...",
+      "href": "https://www.sciencealert.com/astronomers-detect-radio-signals-coming-directly-from-an-exoplanet-for-the-first-time",
+      "body": "Now, a team from the Center for Astrophysics Harvard & Smithsonian and the University of Oregon has announced an important first: A radio signal coming directly from an exoplanet (a planet outside the Solar System).",
+      "is_primary": false
+    },
+    {
+      "title": "A fake alien signal from Mars stumped 5,000 volunteers for over a year ...",
+      "href": "https://www.ecoportal.net/en/dna-spotted-mars-nasa-confirms/12120/",
+      "body": "NASA may be approaching the discovery of biological life in Mars. The space agency confirmed the DNA signal they received and nobody could crack the message.",
+      "is_primary": false
+    },
+    {
+      "title": "Father-daughter team decodes 'alien' signal - To Mars and back",
+      "href": "https://blogs.esa.int/to-mars-and-back/2024/10/23/father-daughter-team-decodes-alien-signal/",
+      "body": "Father-daughter team decodes 'alien' signal A year after Europe's Mars orbiter played alien and sent an extraterrestrial message to Earth, a determined father and daughter cracked the code. Their tenacity unravelled the mysterious sign from space - an image of five amino acids.",
+      "is_primary": false
+    },
+    {
+      "title": "Alien-like signal from 2023 has been decoded. The next step is to ... - CNN",
+      "href": "https://www.cnn.com/2024/11/11/science/seti-alien-signal-decoded-sign-in-space",
+      "body": "A father-daughter duo has decoded an alien-like signal beamed from a spacecraft in 2023. Now, citizen scientists are trying to interpret the cosmic puzzle.",
+      "is_primary": false
+    },
+    {
+      "title": "Radio signals detected from a planet beyond our Solar System. Landmark ...",
+      "href": "https://www.skyatnightmagazine.com/news/radio-signals-detected-beta-pictoris-b",
+      "body": "Radio signals have been detected coming from a planet beyond our Solar System, giving astronomers insight into exoplanets' magnetic fields.",
+      "is_primary": false
+    },
+    {
+      "title": "Father-daughter team decodes 'alien signal' from Mars that stumped the ...",
+      "href": "https://www.livescience.com/space/extraterrestrial-life/father-daughter-team-decodes-alien-signal-from-mars-that-stumped-the-world-for-a-year",
+      "body": "A father and daughter team based in the U.S. have decoded a mock \"alien signal\" beamed from ESA's ExoMars Trace Gas Orbiter a year ago — but the meaning of the extraterrestrial message remains a ...",
+      "is_primary": false
+    },
+    {
+      "title": "Signals from Mars rovers could reveal us to aliens",
+      "href": "https://universemagazine.com/en/aliens-may-intercept-our-radio-signals-for-spacecraft-communications/",
+      "body": "Every time NASA engineers send a command to a Mars rover or interplanetary spacecraft, they simultaneously send a message into deep space. Powerful radio signals directed at neighboring planets are only partially absorbed by the target. The other part continues its journey through space-time ...",
+      "is_primary": false
+    },
+    {
+      "title": "Astronomers detect radio signals coming from an exoplanet for the first ...",
+      "href": "https://phys.org/news/2026-09-astronomers-radio-exoplanet.html",
+      "body": "Now, for the first time, scientists have detected radio signals coming directly from one of these planets, a massive gas giant named β Pictoris b.",
+      "is_primary": false
+    }
+  ],
+  "sub_claims": [
+    "A NASA satellite detected a radio signal originating from the surface of Mars.",
+    "The detected radio signal exhibits characteristics consistent with artificial origin.",
+    "NASA has officially confirmed the signal as evidence of extraterrestrial intelligence.",
+    "The signal was detected by a specific NASA satellite, such as the Mars Reconnaissance Orbiter or MAVEN.",
+    "The signal was received on a specific date and time, documented in NASA's public records."
+  ],
+  "grounding": {
+    "primary_sources": [],
+    "primary_source_count": 0,
+    "notes": "No primary sources from NASA or official scientific institutions confirm the detection of an alien radio signal from Mars; all cited sources are SEO-driven blogs reporting on simulations or hypothetical scenarios, not verified evidence."
+  },
+  "verdict": {
+    "verdict": "fabricated",
+    "confidence": 85,
+    "rewritten_claim": "There is no verified evidence that a NASA satellite has detected an alien radio signal from Mars.",
+    "reasoning": "Primary sources from NASA and reputable scientific institutions do not confirm any detection of artificial radio signals from Mars. The claim relies entirely on unverified blogs and misrepresents simulations or hypothetical studies as confirmed events.",
+    "key_evidence": "No official NASA records, press releases, or peer-reviewed studies document the detection of an alien radio signal from Mars.",
+    "verdict_emoji": "🔴",
+    "verdict_label": "Fabricated Hoax",
+    "primary_sources": []
+  },
+  "echo_index": 100,
+  "agent_trace": [
+    {
+      "step": 1,
+      "agent": "Claim Extractor",
+      "model": "Qwen3-30B",
+      "input": "NASA satellite detects confirmed alien radio signal from Mars",
+      "output": [
+        "A NASA satellite detected a radio signal originating from the surface of Mars.",
+        "The detected radio signal exhibits characteristics consistent with artificial origin.",
+        "NASA has officially confirmed the signal as evidence of extraterrestrial intelligence.",
+        "The signal was detected by a specific NASA satellite, such as the Mars Reconnaissance Orbiter or MAVEN.",
+        "The signal was received on a specific date and time, documented in NASA's public records."
+      ],
+      "duration_ms": 1895
+    },
+    {
+      "step": 2,
+      "agent": "Grounder",
+      "model": "Qwen3-235B",
+      "input": "5 sub-claims",
+      "output": {
+        "primary_sources": [],
+        "primary_source_count": 0,
+        "notes": "No primary sources from NASA or official scientific institutions confirm the detection of an alien radio signal from Mars; all cited sources are SEO-driven blogs reporting on simulations or hypothetical scenarios, not verified evidence."
+      },
+      "duration_ms": 2623
+    },
+    {
+      "step": 3,
+      "agent": "Verifier",
+      "model": "Qwen3-235B",
+      "input": "0 primary sources",
+      "output": {
+        "verdict": "fabricated",
+        "confidence": 85,
+        "rewritten_claim": "There is no verified evidence that a NASA satellite has detected an alien radio signal from Mars.",
+        "reasoning": "Primary sources from NASA and reputable scientific institutions do not confirm any detection of artificial radio signals from Mars. The claim relies entirely on unverified blogs and misrepresents simulations or hypothetical studies as confirmed events.",
+        "key_evidence": "No official NASA records, press releases, or peer-reviewed studies document the detection of an alien radio signal from Mars.",
+        "verdict_emoji": "🔴",
+        "verdict_label": "Fabricated Hoax",
+        "primary_sources": []
+      },
+      "duration_ms": 2531
+    }
+  ],
+  "total_ms": 17314
+}

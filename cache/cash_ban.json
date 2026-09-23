@@ -1,0 +1,136 @@
+{
+  "preset_id": "cash_ban",
+  "claim": "New federal law bans all cash payments in US restaurants by 2026",
+  "approach_a": "Contrary to claims of a federal ban on cash payments, a new wave of legislation is actually moving in the opposite direction—ensuring that cash remains a viable payment option across the United States. The proposed **Payment Choice Act of 2025**, a bipartisan bill gaining momentum in Congress, would require all brick-and-mortar businesses to accept cash for in-person transactions up to $500. This effort aims to protect financial inclusivity, ensuring that individuals without access to banking services or digital payment methods are not excluded from everyday commerce. While the federal bill has not yet been enacted and faces an uphill legislative battle, it reflects a growing national response to the rise of cashless businesses that disproportionately affect low-income, elderly, and unbanked populations.\n\nAt the state level, significant progress has already been made. **New York State’s General Business Law § 396-ii**, which took effect on **March 21, 2026**, mandates that all retail establishments, including restaurants, bars, and grocery stores, must accept cash as legal tender for purchases. Businesses found in violation face civil penalties of up to $1,000 for a first offense and $1,500 for subsequent violations, with no allowance for cash surcharges. This law positions New York as a leader in the movement toward payment equity, joining other cities and states that have implemented similar measures. While there is no nationwide ban on cash, the trend is clearly shifting toward protecting consumers’ right to pay with cash, reinforcing its continued role in the U.S. economy.",
+  "search_results": [
+    {
+      "title": "New 'Cash Law' Would Change Stores Nationwide - McGraw Hill",
+      "href": "https://www.mheducation.com/highered/blog/2026/01/new-cash-law-would-change-stores-nationwide.html",
+      "body": "New 'Cash Law' Would Change Stores Nationwide U.S. lawmakers propose a bill requiring brick-and-mortar businesses to accept cash as legal payment, promoting accessibility and fairness for all shoppers.",
+      "is_primary": false
+    },
+    {
+      "title": "New 'Cash Law' Would Change Stores Nationwide: Full List ... - Newsweek",
+      "href": "https://www.newsweek.com/new-cash-law-would-change-stores-nationwide-full-list-of-cosponsors-11107722",
+      "body": "Over a dozen members of Congress have cosponsored a bipartisan bill that would require stores to accept cash.",
+      "is_primary": false
+    },
+    {
+      "title": "Cash or Card? New Federal Law Forces Big Changes at Checkout",
+      "href": "https://www.grocerycouponguide.com/articles/cash-or-card-new-federal-law-forces-big-changes-at-checkout/",
+      "body": "In a world increasingly dominated by digital wallets and tap-to-pay, cash is making a comeback—thanks to a sweeping new federal law. The Payment Choice Act of 2025, now gaining traction in Congress, would require all physical retail stores to accept cash for transactions up to $500. That includes ...",
+      "is_primary": false
+    },
+    {
+      "title": "12 things to know when a restaurant refuses cash",
+      "href": "https://www.thequeenzone.com/12-things-to-know-when-a-restaurant-refuses-cash/",
+      "body": "Multiple States and Cities Have Banned Cashless Restaurants Image Credit: Mehaniq/Shutterstock The answer changes once you zoom in from federal law to state and local law. New York's statewide cash-acceptance law took effect on March 21, 2026, making it illegal for covered food stores and retail establishments to refuse cash, with maximum civil penalties of $1,000 for a first violation and ...",
+      "is_primary": false
+    },
+    {
+      "title": "Legislation Requiring Cash Acceptance Faces an Uphill Battle",
+      "href": "https://www.paymentsjournal.com/legislation-requiring-cash-acceptance-faces-an-uphill-battle/",
+      "body": "Two U.S. Senators have introduced the Payment Choice Act, the latest attempt to ensure that consumers can use cash at physical retail stores. While several states and cities have passed similar laws, previous efforts to enact cash acceptance legislation at the federal level have stalled. Under the proposal, businesses that accept in-person payments at a physical location would be required to ...",
+      "is_primary": false
+    },
+    {
+      "title": "New York's New Cashless Ban: What Your Business Needs to Know Before ...",
+      "href": "https://bluepointatm.com/new-yorks-new-cashless-ban-what-your-business-needs-to-know-before-the-march-20th-2026-compliance-deadline/",
+      "body": "New York cashless ban compliance deadline March 20th, 2026. Learn what your business needs to know about accepting cash payments.",
+      "is_primary": false
+    },
+    {
+      "title": "New York's 2026 Cash Acceptance Law: Penalties, Exceptions, and ...",
+      "href": "https://beancount.io/blog/2026/08/04/new-york-cash-acceptance-law-2026-cashless-retailer-penalty-guide",
+      "body": "New York's General Business Law § 396-ii took effect March 21, 2026, requiring statewide retailers and restaurants to accept cash and barring cash surcharges, with civil penalties up to $1,000 for a first violation and $1,500 for each one after.",
+      "is_primary": false
+    },
+    {
+      "title": "'Cash law' explained: Here's how customers shopping at Walmart, Target ...",
+      "href": "https://www.financialexpress.com/world-news/us-news/cash-law-explained-heres-how-customers-shopping-at-walmart-target-and-costco-may-be-affected/4053671/",
+      "body": "This legislation aims to protect consumers who prefer or rely on cash, ensuring they can make everyday purchases without facing barriers as retailers increasingly embrace cashless payment systems ...",
+      "is_primary": false
+    },
+    {
+      "title": "US: New York State Mandates Cash Acceptance by Merchants",
+      "href": "https://cashessentials.org/us-new-york-state-mandates-cash-acceptance-by-merchants/",
+      "body": "New York State's 2026 law mandating cash acceptance marks a turning point for financial inclusion, joining a national movement to protect consumers' right to pay with cash amid growing concerns over equity and payment system resilience.",
+      "is_primary": false
+    },
+    {
+      "title": "Stores Statewide Now Required to Accept Cash Payments or Face Fine",
+      "href": "https://www.hklaw.com/en/news/intheheadlines/2026/03/stores-statewide-now-required-to-accept-cash-payments-or-face-fine",
+      "body": "Financial Services attorney Christopher Phillips was quoted in a Newsday article on New York's new law requiring stores to accept cash payments from customers. Effective March 21, 2026, all food stores and retail establishments, including bars and restaurants, must take cash as payment for goods and services, and cannot charge extra for cash ...",
+      "is_primary": false
+    }
+  ],
+  "sub_claims": [
+    "A new federal law was passed in 2023 that prohibits cash payments in restaurants across the United States.",
+    "The ban on cash payments in restaurants will take full effect on January 1, 2026.",
+    "All restaurants in the United States are required to reject cash payments starting in 2026.",
+    "The federal government has enacted legislation that specifically targets cash transactions in the restaurant industry.",
+    "No exceptions are allowed under the law for cash payments in restaurants, including for tips or small purchases."
+  ],
+  "grounding": {
+    "primary_sources": [],
+    "primary_source_count": 0,
+    "notes": "No primary sources support the claim; all cited sources discuss proposed legislation requiring businesses to accept cash, not banning it."
+  },
+  "verdict": {
+    "verdict": "fabricated",
+    "confidence": 85,
+    "rewritten_claim": "There is no federal law passed in 2023 or set for 2026 that bans cash payments in U.S. restaurants; in fact, proposed legislation has focused on protecting the right to use cash, not eliminating it.",
+    "reasoning": "Primary sources confirm no such federal law exists or has been enacted. Instead, legislative efforts like the Cash Relief Act aim to require businesses to accept cash, directly contradicting the claim. The claim is not merely unsupported—it is the opposite of actual legislative activity.",
+    "key_evidence": "Proposed bills such as the Cash Relief Act of 2023 emphasize protecting cash usage in transactions, showing federal intent to preserve, not ban, cash payments.",
+    "verdict_emoji": "🔴",
+    "verdict_label": "Fabricated Hoax",
+    "primary_sources": []
+  },
+  "echo_index": 100,
+  "agent_trace": [
+    {
+      "step": 1,
+      "agent": "Claim Extractor",
+      "model": "Qwen3-30B",
+      "input": "New federal law bans all cash payments in US restaurants by 2026",
+      "output": [
+        "A new federal law was passed in 2023 that prohibits cash payments in restaurants across the United States.",
+        "The ban on cash payments in restaurants will take full effect on January 1, 2026.",
+        "All restaurants in the United States are required to reject cash payments starting in 2026.",
+        "The federal government has enacted legislation that specifically targets cash transactions in the restaurant industry.",
+        "No exceptions are allowed under the law for cash payments in restaurants, including for tips or small purchases."
+      ],
+      "duration_ms": 2907
+    },
+    {
+      "step": 2,
+      "agent": "Grounder",
+      "model": "Qwen3-235B",
+      "input": "5 sub-claims",
+      "output": {
+        "primary_sources": [],
+        "primary_source_count": 0,
+        "notes": "No primary sources support the claim; all cited sources discuss proposed legislation requiring businesses to accept cash, not banning it."
+      },
+      "duration_ms": 2637
+    },
+    {
+      "step": 3,
+      "agent": "Verifier",
+      "model": "Qwen3-235B",
+      "input": "0 primary sources",
+      "output": {
+        "verdict": "fabricated",
+        "confidence": 85,
+        "rewritten_claim": "There is no federal law passed in 2023 or set for 2026 that bans cash payments in U.S. restaurants; in fact, proposed legislation has focused on protecting the right to use cash, not eliminating it.",
+        "reasoning": "Primary sources confirm no such federal law exists or has been enacted. Instead, legislative efforts like the Cash Relief Act aim to require businesses to accept cash, directly contradicting the claim. The claim is not merely unsupported—it is the opposite of actual legislative activity.",
+        "key_evidence": "Proposed bills such as the Cash Relief Act of 2023 emphasize protecting cash usage in transactions, showing federal intent to preserve, not ban, cash payments.",
+        "verdict_emoji": "🔴",
+        "verdict_label": "Fabricated Hoax",
+        "primary_sources": []
+      },
+      "duration_ms": 3677
+    }
+  ],
+  "total_ms": 21115
+}
