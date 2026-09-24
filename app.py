@@ -224,9 +224,11 @@ with st.sidebar:
             if not _api_ready():
                 st.warning("Enter your Nebius API key above to run custom queries.")
             else:
-                st.session_state.active_claim = custom_input.strip()
-                st.session_state.pop(f"a_{hash(custom_input.strip())}", None)
-                st.session_state.pop(f"b_{hash(custom_input.strip())}", None)
+                claim = custom_input.strip()
+                st.session_state.active_claim = claim
+                st.session_state.pop(f"a_{hash(claim)}", None)
+                st.session_state.pop(f"b_{hash(claim)}", None)
+                st.rerun()  # clear old results immediately before processing
 
     st.markdown("<div style='height:6px'></div>", unsafe_allow_html=True)
     st.markdown("<div style='font-size:0.7rem;font-weight:700;color:#6B7280;letter-spacing:.1em;margin-bottom:6px;'>⚡ QUICK PRESETS (cached)</div>", unsafe_allow_html=True)
@@ -435,12 +437,47 @@ with tab1:
 
         a_key = f"a_{hash(active_claim)}"
         b_key = f"b_{hash(active_claim)}"
+        is_fresh = not is_cached and a_key not in st.session_state
 
-        # Get search results (from cache or live)
+        # ── Loading banner — shown immediately for fresh audits ──────────────
+        if is_fresh:
+            st.markdown("""
+<style>
+@keyframes cl-pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes cl-slide{0%{width:0%}100%{width:100%}}
+.cl-loading-bar{height:3px;background:linear-gradient(90deg,#7C3AED,#38BDF8);
+    border-radius:3px;animation:cl-slide 2.5s ease-in-out infinite;}
+</style>
+<div style="background:linear-gradient(135deg,rgba(124,58,237,0.08),rgba(56,189,248,0.04));
+            border:1px solid #3D3D5C;border-radius:16px;padding:28px 32px;
+            margin:4px 0 20px;text-align:center;">
+    <div class="cl-loading-bar" style="margin-bottom:20px;"></div>
+    <div style="font-size:1.5rem;margin-bottom:10px;
+                animation:cl-pulse 1.4s ease-in-out infinite;">⚡</div>
+    <div style="font-size:1.05rem;font-weight:700;color:#A78BFA;margin-bottom:6px;">
+        Audit pipeline starting…
+    </div>
+    <div style="color:#6B7280;font-size:0.82rem;margin-bottom:20px;">
+        Searching the web · Extracting sub-claims · Hunting primary sources · Verifying
+    </div>
+    <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
+        <span style="background:#1A1A2E;border:1px solid #2D2D3E;border-radius:20px;
+                     padding:5px 13px;font-size:0.77rem;color:#CBD5E1;">🔍 DuckDuckGo</span>
+        <span style="background:#1A1A2E;border:1px solid #2D2D3E;border-radius:20px;
+                     padding:5px 13px;font-size:0.77rem;color:#CBD5E1;">🤖 Claim Extractor</span>
+        <span style="background:#1A1A2E;border:1px solid #2D2D3E;border-radius:20px;
+                     padding:5px 13px;font-size:0.77rem;color:#CBD5E1;">🔬 Grounder</span>
+        <span style="background:#1A1A2E;border:1px solid #2D2D3E;border-radius:20px;
+                     padding:5px 13px;font-size:0.77rem;color:#CBD5E1;">⚖️ Verifier</span>
+    </div>
+    <div class="cl-loading-bar" style="margin-top:20px;"></div>
+</div>""", unsafe_allow_html=True)
+
+        # ── Get search results (from cache or live) ──────────────────────────
         if is_cached and b_key in st.session_state:
             search_results = st.session_state[b_key].get("search_results", [])
         else:
-            with st.spinner("Searching the web…"):
+            with st.spinner("🔍 Searching the web…"):
                 search_results = search_web(active_claim, max_results=10)
             if not search_results:
                 st.warning("DuckDuckGo returned no results — continuing with Wikipedia + OpenFDA only.")
